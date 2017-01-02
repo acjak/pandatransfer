@@ -1,9 +1,10 @@
-# pandatransfer
+# Pandatransfer
 Transfers personal data from old Panda1 server to the new Panda2 server using Screen and SSH keys. 
 
-You need to have the same login name for both servers for this script to work.
-
-**Note that the script ends with deleting the .ssh/authorized\_keys after completion. If you have never heard of SSH keys and the ssh-copy-id command, that is probably ok.**
+### Main hiccups
+* Your home and data directories on **Panda2 should be empty** before. Otherwise there is a risk of overwriting the data already on Panda2. Home directory is `/u/nexmap/{username}` and data directory is `/u/data/{username}`.
+* You need to have the same login name for both servers for this script to work.
+* **The script ends with deleting the .ssh/authorized\_keys after completion. If you have never heard of SSH keys and the ssh-copy-id command, that is probably ok.**
 
 ## How to use:
 * Open a terminal on Panda2, either using ThinLinc or an SSH connection.
