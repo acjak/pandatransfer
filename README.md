@@ -25,4 +25,4 @@ The transfer should now be running in the background, even when closing the SSH 
 ```bash
 $ screen -dr pandatransfer
 ```
-If there is no screen matching the name pandatransfer, the transfer of files from Panda1 to Panda2 is completed.
+To leave this screen again, press CTRL+A followed by D. If there is no screen matching the name pandatransfer, the transfer of files from Panda1 to Panda2 is completed.
