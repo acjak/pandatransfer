@@ -10,13 +10,19 @@ You need to have the same login name for both servers for this script to work.
 * Clone this repository to Panda2:
 ```bash
 $ git clone https://github.com/acjak/pandatransfer.git
-´´´
+```
 * Got to the new directory:
-```$ cd pandatransfer´´´
+```bash
+$ cd pandatransfer
+```
 * Run the script:
-```$ sh pandatransfer.sh´´´
+```bash
+$ sh pandatransfer.sh
+```
 * You will be asked for the password for your Panda1 login.
 
 The transfer should now be running in the background, even when closing the SSH or ThinLinc connection. To see the progress  use the command
-```$ screen -dr pandatransfer´´´
+```bash
+$ screen -dr pandatransfer
+```
 If there is no screen matching the name pandatransfer, the transfer of files from Panda1 to Panda2 is completed.
