@@ -8,7 +8,9 @@ You need to have the same login name for both servers for this script to work.
 ## How to use:
 * Open a terminal on Panda2, either using ThinLinc or an SSH connection.
 * Clone this repository to Panda2:
-```$ git clone https://github.com/acjak/pandatransfer.git´´´
+```bash
+$ git clone https://github.com/acjak/pandatransfer.git
+´´´
 * Got to the new directory:
 ```$ cd pandatransfer´´´
 * Run the script:
